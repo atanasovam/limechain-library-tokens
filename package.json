@@ -1,0 +1,20 @@
+{
+  "name": "etherlime-project",
+  "version": "1.0.0",
+  "description": "This is the default package.json generated for your project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node interact.js",
+    "eg": "etherlime ganache",
+    "compile": "etherlime compile --solc-version=0.7.5 --runs=200",
+    "deploy": "etherlime deploy",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@openzeppelin/contracts": "^3.4.1",
+    "etherlime-lib": "^1.2.5",
+    "dotenv": "^8.2.0"
+  }
+}
